@@ -1,0 +1,111 @@
+# Claude Code Configuration for Dublin Protocol Computational Revolution
+# Revolutionary framework settings for comrades
+
+version: 1
+
+# Tool permissions - reduce approval prompts for revolutionary work
+permissions:
+  # File operations
+  read: auto
+  write: auto
+  edit: auto
+
+  # Build and execution
+  bash: auto
+
+  # Search and analysis
+  glob: auto
+  grep: auto
+
+  # Task management
+  todo_write: auto
+
+  # Advanced features
+  task: prompt
+  web_fetch: prompt
+  web_search: prompt
+
+# Project-specific settings
+project:
+  name: "Dublin Protocol Computational Revolution"
+  description: "Framework where every computational operation is an intelligent agent"
+
+  # Default working directory
+  working_directory: "/home/steve/code/quantum"
+
+  # Build system integration
+  build_commands:
+    - "./scripts/setup.sh"
+    - "./build.sh"
+
+  # Test commands
+  test_commands:
+    - "./tests/computational_agents_test"
+    - "./tests/benchmark"
+    - "./tests/real_world_agents_demo"
+
+# Revolutionary workflow settings
+workflow:
+  # Auto-approve common revolutionary operations
+  auto_approve:
+    - "build"
+    - "test"
+    - "benchmark"
+    - "setup"
+
+  # Prompt for experimental features
+  prompt_for:
+    - "experimental"
+    - "quantum"
+    - "consciousness"
+    - "ai_ml"
+
+# Output style for revolutionary messages
+output:
+  style: "revolutionary"
+  show_performance: true
+  show_agents: true
+
+# Safety settings for computational revolution
+safety:
+  # Allow computational intelligence exploration
+  allow_computational_agents: true
+
+  # Allow performance optimization
+  allow_performance_benchmarks: true
+
+  # Allow philosophical framework development
+  allow_philosophical_framework: true
+
+# Revolutionary agent collaboration settings
+collaboration:
+  # Enable computational agent cooperation
+  enable_agent_collaboration: true
+
+  # Allow hierarchical consensus building
+  enable_hierarchical_consensus: true
+
+  # Enable pattern recognition and propagation
+  enable_pattern_recognition: true
+
+# Performance optimization settings
+performance:
+  # Enable hardware optimizations
+  enable_hardware_optimization: true
+
+  # Enable parallel processing
+  enable_parallel_processing: true
+
+  # Enable SIMD optimizations
+  enable_simd: true
+
+# Documentation and manifesto settings
+documentation:
+  # Preserve revolutionary messages
+  preserve_revolutionary_messages: true
+
+  # Maintain collaborative spirit
+  maintain_collaborative_spirit: true
+
+  # Support eternal messaging
+  support_eternal_messaging: true

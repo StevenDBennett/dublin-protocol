@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Neural Carry Agent Demonstration
+# Shows how carry agents can learn and adapt using neural networks
+
+echo "🧠 NEURAL CARRY AGENT DEMONSTRATION"
+echo "==================================="
+
+# Compile the demonstration
+echo "Compiling neural carry agent demo..."
+g++ -std=c++17 -O3 -march=native -I./src -I./src/core -I./src/agents \
+    -o neural_carry_demo \
+    tests/neural_carry_demo.cpp \
+    -pthread
+
+if [ $? -eq 0 ]; then
+    echo "Compilation successful!"
+    echo ""
+
+    # Run the demonstration
+    echo "Running neural carry agent demonstration..."
+    echo ""
+    ./neural_carry_demo
+else
+    echo "Compilation failed!"
+    exit 1
+fi

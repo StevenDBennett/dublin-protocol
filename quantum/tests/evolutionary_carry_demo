@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Evolutionary Carry Agent Demonstration
+# Shows how carry agents can evolve optimal strategies through genetic algorithms
+
+echo "🧬 EVOLUTIONARY CARRY AGENT DEMONSTRATION"
+echo "========================================="
+
+# Compile the demonstration
+echo "Compiling evolutionary carry agent demo..."
+g++ -std=c++17 -O3 -march=native -I./src -I./src/core -I./src/agents \
+    -o evolutionary_carry_demo \
+    tests/evolutionary_carry_demo.cpp \
+    -pthread
+
+if [ $? -eq 0 ]; then
+    echo "Compilation successful!"
+    echo ""
+
+    # Run the demonstration
+    echo "Running evolutionary carry agent demonstration..."
+    echo ""
+    ./evolutionary_carry_demo
+else
+    echo "Compilation failed!"
+    exit 1
+fi

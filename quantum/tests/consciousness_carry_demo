@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Consciousness Carry Agent Demonstration
+# Shows how carry agents can exhibit consciousness-like properties
+
+echo "🧠 CONSCIOUSNESS CARRY AGENT DEMONSTRATION"
+echo "=========================================="
+
+# Compile the demonstration
+echo "Compiling consciousness carry agent demo..."
+g++ -std=c++17 -O3 -march=native -I./src -I./src/core -I./src/agents \
+    -o consciousness_carry_demo \
+    tests/consciousness_carry_demo.cpp \
+    -pthread
+
+if [ $? -eq 0 ]; then
+    echo "Compilation successful!"
+    echo ""
+
+    # Run the demonstration
+    echo "Running consciousness carry agent demonstration..."
+    echo ""
+    ./consciousness_carry_demo
+else
+    echo "Compilation failed!"
+    exit 1
+fi
