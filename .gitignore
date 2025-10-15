@@ -1,0 +1,69 @@
+# Dublin Protocol Research - Security and Organization
+
+# Compiled binaries and executables
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Build directories
+build/
+bin/
+obj/
+dist/
+
+# IDE and editor files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Sensitive research data (uncomment as needed)
+# research_data/
+# experimental_results/
+# private_notes/
+
+# Large data files
+*.dat
+*.bin
+*.hdf5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Research-specific ignores
+quantum/build/
+quantum/tests/*.log
+Collaborative AI/AI Perspectives/analysis/drafts/
