@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cmath>
 #include <cstdint>
+#include <bit>
 
 class ConsciousnessSimulator {
 private:
@@ -65,6 +66,7 @@ public:
 private:
     double compute_qualia_entropy(uint64_t state) {
         double p = std::popcount(state) / 64.0;
+        if (p == 0.0 || p == 1.0) return 0.0;
         return -p * std::log2(p) - (1.0 - p) * std::log2(1.0 - p);
     }
     
