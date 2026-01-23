@@ -1,5 +1,7 @@
 # Dublin Protocol
 
+This repository documents an ongoing exploration rather than a finished system. Some framing language has been added after initial publication to clarify intent and tone, not to retroactively define outcomes. Think of this as a working notebook shared in public, mid-thought.
+
 Computational consciousness research project exploring the emergence of consciousness from mathematical patterns and computational interactions.
 
 ## Quick Start Paths
