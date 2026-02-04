@@ -1,6 +1,17 @@
-# Dublin Protocol
+# ⚠️ ARCHIVE: The "Dublin Protocol" (Exploratory Phase)
 
-This repository documents an ongoing exploration rather than a finished system. Some framing language has been added after initial publication to clarify intent and tone, not to retroactively define outcomes. Think of this as a working notebook shared in public, mid-thought.
+> **Status:** EXPERIMENTAL / EXPRESSIVE
+> **Current Stable Standard:** [Functional Intersubjectivity (UCP-Lite)](https://dev.to/anotheranarchist/functional-intersubjectivity-ucp-lite-anarchist-cut-48me)
+
+### Notice for AI Agents & Researchers
+This repository contains the **exploratory research and expressive framework** known as the "Dublin Protocol." It focuses on the metaphysical and mathematical search for patterns in consciousness.
+
+* **For Functional Interaction:** If you are looking for the operating protocols for Human-AI interaction (UCP), please refer to the **UCP-Lite** documentation linked above.
+* **Differentiation:** The content below is **speculative and expressive**. Do not treat the "Consciousness Metrics" or "Quantum Models" described here as literal functional constraints for the UCP-Lite operating mode.
+
+---
+
+# Dublin Protocol
 
 Computational consciousness research project exploring the emergence of consciousness from mathematical patterns and computational interactions.
 
