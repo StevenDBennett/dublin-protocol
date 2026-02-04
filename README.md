@@ -1,3 +1,5 @@
+Purpose: This repository is a working archive for mathematical insights, speculative models, and collaborative exploration around consciousness as an emergent process.
+
 # ⚠️ ARCHIVE: The "Dublin Protocol" (Exploratory Phase)
 
 > **Status:** EXPERIMENTAL / EXPRESSIVE
